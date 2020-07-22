@@ -81,7 +81,7 @@
 
 .content .most-accessed {
   max-width: 940px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
 
 .content .most-accessed h2 {
@@ -117,4 +117,18 @@
   font-size: 14px;
   line-height: 16px;
   color: #777777;
+}
+
+.footer {
+  max-width: 100vw;
+  background: #eeeeee;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
