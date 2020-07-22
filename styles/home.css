@@ -30,12 +30,12 @@
 
 .header .menu ul li {
   margin-right: 30px;
-  font-size: 16px;
-  line-height: 19px;
 }
 
 .header .menu ul li a {
   color: #111111;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .content {
@@ -67,6 +67,7 @@
 
 .content .info .info-right p {
   font-size: 18px;
+  line-height: 28px;
 }
 
 .content .info .info-image {
@@ -76,4 +77,44 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.content .most-accessed {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.content .most-accessed h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.content .most-accessed .grid-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.content .most-accessed .grid-cards .card {
+  margin-bottom: 30px;
+}
+
+.content .most-accessed .grid-cards .card img {
+  max-width: 300px;
+  max-height: 140px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.content .most-accessed .grid-cards .card h3 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.content .most-accessed .grid-cards .card p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #777777;
 }
