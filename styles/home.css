@@ -37,3 +37,43 @@
 .header .menu ul li a {
   color: #111111;
 }
+
+.content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.content .info {
+  max-width: 940px;
+  min-height: 366px;
+  margin: 0 auto 50px auto;
+  display: flex;
+  background: #fbdfdb;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.content .info .info-right {
+  max-width: 316px;
+  margin-left: 60px;
+}
+
+.content .info .info-right h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.content .info .info-right p {
+  font-size: 18px;
+}
+
+.content .info .info-image {
+  max-width: 216px;
+  max-height: 300px;
+  margin-right: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
