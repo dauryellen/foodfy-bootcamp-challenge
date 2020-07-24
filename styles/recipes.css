@@ -134,6 +134,7 @@
   height: 200px;
   border-radius: 15px;
   margin-bottom: 20px;
+  object-fit: cover;
 }
 
 .modal .card h3 {
