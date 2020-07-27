@@ -1,0 +1,27 @@
+{
+  "name": "foodfy-bootcamp-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dauryellen/foodfy-bootcamp-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dauryellen/foodfy-bootcamp-challenge/issues"
+  },
+  "homepage": "https://github.com/dauryellen/foodfy-bootcamp-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
